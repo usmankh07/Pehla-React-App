@@ -2,9 +2,9 @@ import React from 'react'
 import circle1 from '../fourth_content/circle1.jpg'
 import circle2 from '../fourth_content/circle2.jpg'
 import circle3 from '../fourth_content/circle 3.jpg'
-import '../fourth_content/fourth_content.css'
+// import '../fourth_content/fourth_content.css'
 
-function Fourth_content() {
+function Fourth() {
     return (
 
             <div class="fourth_content">
@@ -51,4 +51,4 @@ function Fourth_content() {
     )
 }
 
-export default Fourth_content
+export default Fourth

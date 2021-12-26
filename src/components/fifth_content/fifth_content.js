@@ -2,7 +2,7 @@ import React from 'react'
 import logo from "../../logo.png"
 import '../fifth_content/fifth_content.css'
 
-function Fifth_content() {
+function Fifth() {
     return (
         <div>
             <div class="fifth_content">
@@ -34,4 +34,4 @@ function Fifth_content() {
     )
 }
 
-export default Fifth_content
+export default Fifth

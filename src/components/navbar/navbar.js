@@ -1,10 +1,13 @@
-import React from 'react'
-import '../navbar/navbar.css'
-import logo from "../../logo.png"
+import React from 'react';
+import '../navbar/navbar.css';
+import logo from "../../logo.png";
+// import ScriptTag from "react-script-tag";
 
 function Navbar() {
-  return (
-    <div class="first_content">
+    return (
+        
+        <div class="first_content">
+        <script src="./index.js"></script>
         
     <nav>
         
@@ -13,10 +16,10 @@ function Navbar() {
         </div>
         <i class="fa fa-bars fa-2x open"></i>
         <div class="pages">
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Contact</a></li>
             <i class="fa fa-times close"></i>
         </div>
         

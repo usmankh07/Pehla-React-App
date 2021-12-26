@@ -2,7 +2,7 @@ import React from 'react'
 import third_front from '../third_content/third_front.jpg'
 import '../third_content/third_content.css'
 
-function Third_Content() {
+function Third() {
     return (
        
            <div class="third_content">
@@ -50,4 +50,4 @@ function Third_Content() {
     )
 }
 
-export default Third_Content
+export default Third

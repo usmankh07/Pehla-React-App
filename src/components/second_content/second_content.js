@@ -1,11 +1,11 @@
 import React from 'react'
 import yoga2 from '../second_content/yoga 2.png'
 import yoga3 from '../second_content/yoga 3.png'
-import yoga4 from '../second_content/yoga 5.png'
+import yoga4 from '../second_content/yoga 4.png'
 import yoga5 from '../second_content/yoga 5.png'
 import '../second_content/second_content.css'
 
-function Second_Content() {
+function Second() {
     return (
         <div>
             <div class="second_content">
@@ -45,4 +45,4 @@ function Second_Content() {
     )
 }
 
-export default Second_Content
+export default Second

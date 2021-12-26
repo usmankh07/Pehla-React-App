@@ -1,3 +1,8 @@
+
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Arimo&family=Boogaloo&display=swap');
 * {
     margin: 0;
@@ -289,7 +294,7 @@ button:hover {
 /*                                          Sixth Content                                        */
 
 
-.sixth_container {
+ .sixth_container {
     margin: 4rem 10rem;
 }
 .sixth_heading {
@@ -308,11 +313,15 @@ button:hover {
 .sixth_card {
     border-radius: 20px;
     margin: 20px 20px;
-    width: 250px;
+    width: 27%;
     padding: 20px 20px 50px 20px;
     background-color: #ffd600;
     
-}
+ } 
+ .sixth_card  h1 {
+     font-weight: 600;
+     color: black;
+ }
 .sixth_card button {
     font-size: 15px;
     border-radius: 18px;
@@ -321,7 +330,7 @@ button:hover {
     margin-top: 20px;
     padding: 15px 20px;
     border: none;
-}
+} 
 
 
 /*                                          Sixth Content Ends                                        */

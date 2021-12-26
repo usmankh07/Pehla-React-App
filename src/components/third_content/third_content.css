@@ -111,13 +111,14 @@ button:hover {
     height: 100vh;
     box-shadow:  inset 10px 0px 14px 10px white;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .third_image {
-    margin: 0rem 10rem;
-    width: 450px;
+    margin: 0rem 0rem 0 10rem;
+    width: 400px;
 }
 .third_image img {
     width: 100%;
@@ -125,29 +126,40 @@ button:hover {
     box-shadow: 10px 14px 14px -6px black;
 }
 .content {
-    /* text-align: center; */
-    width: 500px;
-    margin: 0 10rem 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* width: auto; */
 }
 .content1 {
+    /* width: 70%; */
+    /* width: auto; */
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: row;
+
 }
 .other {
+    margin-right: 10px;
     background: #000;
-    padding: 20px;
-    width: 200px;
-    margin-top: 10px;
-    border-radius: 19px;
+    padding: 1px 10px;
+    width: 45%;
+    /* display: flex; */
+    /* flex-direction: row; */
+
+    /* width: 100px;
+    border-radius: 19px; */
 }
+
 .other h2 {
     color: white;
+    /* font-size: 22px; */
     text-shadow: 3px 2px #000000;
 
 }
 .other p {
     color: #ffd600;
+    font-size: 18px;
     text-shadow: 1px 2px #000000;
 }
 
@@ -289,7 +301,7 @@ button:hover {
 /*                                          Sixth Content                                        */
 
 
-.sixth_container {
+/* .sixth_container {
     margin: 4rem 10rem;
 }
 .sixth_heading {
@@ -321,7 +333,7 @@ button:hover {
     margin-top: 20px;
     padding: 15px 20px;
     border: none;
-}
+} */
 
 
 /*                                          Sixth Content Ends                                        */

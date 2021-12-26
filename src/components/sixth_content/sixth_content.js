@@ -1,7 +1,7 @@
 import React from 'react'
 import '../sixth_content/sixth_content.css'
 
-function Sixth_Content() {
+function Sixth() {
     return (
         <>
             <div class="sixth_content">
@@ -98,4 +98,4 @@ function Sixth_Content() {
     )
 }
 
-export default Sixth_Content
+export default Sixth
