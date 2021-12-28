@@ -1,5 +1,6 @@
 import React from 'react'
 import '../sixth_content/sixth_content.css'
+// import '../navbar/script.js'
 
 function Sixth() {
     return (
@@ -76,6 +77,7 @@ function Sixth() {
             </div>
         </div>
         
+    <i class="fa fa-envelope-open envelope" aria-hidden="true"></i>
     </div>
 </div>
 {/* <div class="eight_content">
@@ -83,7 +85,7 @@ function Sixth() {
     <div class="modal">
         <div class="inputs">
             <input type="text" placeholder="Email Address" />
-            <textarea name="" placeholder="Message" style="resize: none;" id="" cols="30" rows="10"></textarea>
+            <textarea name="" placeholder="Message" style={{resize: "none"}} id="" cols="30" rows="10"></textarea>
         </div>
         <div class="modal_button">
             <button class="send">Send</button>
@@ -92,7 +94,6 @@ function Sixth() {
         
         
     </div>
-    <i class="fa fa-envelope-open envelope" aria-hidden="true"></i>
 </div> */}
 </>
     )

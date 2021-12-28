@@ -1,6 +1,7 @@
 import React from 'react';
 import '../navbar/navbar.css';
 import logo from "../../logo.png";
+// import './script.js'
 // import ScriptTag from "react-script-tag";
 
 function Navbar() {
